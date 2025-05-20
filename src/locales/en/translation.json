@@ -1,0 +1,39 @@
+{
+  "heroLine1": "Your new junior developer",
+  "heroLine2": "Fred Brosman",
+  "heroDescLine1": "Focused on building clear, modern React front-ends.",
+  "heroDescLine2": "This page mirrors your design — so will my work.",
+  "heroCTA": "Let’s work together",
+
+  "letsTalk": "Let's Talk",
+  "login": "Login",
+  "footerTitle": "Navigation",
+  "about": "About Me",
+  "projects": "Projects",
+  "contact": "Contact",
+  "partner": "Let’s Work Together",
+
+  "whatIBringTitle": "What I Bring to the Table",
+  "traits": [
+    {
+      "title": "Attention to Detail",
+      "text": "Even when my former colleagues insisted that a few millimeters didn’t matter, I couldn’t help but make sure everything was spot-on—even if it meant going the extra millimeter."
+    },
+    {
+      "title": "Persistence",
+      "text": "I once started an intricate origami piece and spent 10 hours straight working on it because I couldn't stop until it was perfectly finished."
+    },
+    {
+      "title": "Problem-Solving",
+      "text": "In my role as a construction supervisor, I often had to improvise by tweaking designs or finding alternative materials when plans changed unexpectedly."
+    },
+    {
+      "title": "Continuous Growth",
+      "text": "After mastering the challenges in my previous career, I found myself seeking new horizons where I could continue to learn and evolve. This led me to front-end development."
+    },
+    {
+      "title": "Teamwork",
+      "text": "My experience as a construction supervisor taught me the value of teamwork by coordinating closely with designers, laborers, and suppliers to ensure successful project outcomes."
+    }
+  ]
+}

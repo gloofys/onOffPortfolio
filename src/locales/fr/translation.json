@@ -1,0 +1,39 @@
+{
+  "heroLine1": "Votre nouveau développeur junior",
+  "heroLine2": "Fred Brosman",
+  "heroDescLine1": "Spécialisé dans les interfaces React claires et modernes.",
+  "heroDescLine2": "Cette page reflète votre design — tout comme mon travail le fera.",
+  "heroCTA": "Travaillons ensemble",
+
+  "letsTalk": "Discutons",
+  "login": "Connexion",
+  "footerTitle": "Navigation",
+  "about": "À propos de moi",
+  "projects": "Projets",
+  "contact": "Contact",
+  "partner": "Collaborons",
+  "whatIBringTitle": "Ce que j’apporte à l’équipe",
+  "traits": [
+    {
+      "title": "Souci du détail",
+      "text": "Même lorsque mes anciens collègues disaient que quelques millimètres ne comptaient pas, je tenais à ce que tout soit parfaitement aligné — quitte à aller chercher le dernier millimètre."
+    },
+    {
+      "title": "Persévérance",
+      "text": "J’ai un jour commencé un pliage d’origami très complexe et passé 10 heures d’affilée à le finir parfaitement, incapable de m’arrêter tant qu’il n’était pas parfait."
+    },
+    {
+      "title": "Résolution de problèmes",
+      "text": "En tant que superviseur de chantier, je devais souvent improviser en ajustant les plans ou en trouvant des matériaux alternatifs quand les choses changeaient soudainement."
+    },
+    {
+      "title": "Apprentissage continu",
+      "text": "Après avoir relevé de nombreux défis dans mon ancienne carrière, j’ai voulu explorer de nouveaux horizons. C’est ce qui m’a conduit au développement front-end."
+    },
+    {
+      "title": "Travail d’équipe",
+      "text": "Mon expérience en tant que superviseur m’a appris à collaborer étroitement avec les designers, ouvriers et fournisseurs pour garantir la réussite des projets."
+    }
+  ]
+}
+
