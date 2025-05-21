@@ -6,6 +6,7 @@ import './App.css'
 import Header from "./sections/Header.jsx";
 import WhatIBring from "./sections/WhatIBring.jsx";
 import ShowcaseSection from "./sections/ShowcaseSection.jsx";
+import DeveloperPlans from "./sections/DeveloperPlans.jsx";
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <Hero />
             <WhyOnoff />
             <ShowcaseSection/>
+            <DeveloperPlans/>
             <WhatIBring/>
             <Footer />
         </div>

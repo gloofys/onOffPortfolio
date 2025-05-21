@@ -18,12 +18,12 @@ const ShowcaseSection = () => {
                     />
                 </div>
                 <div>
-                    <h3 className="text-2xl font-semibold text-[#273348] mb-4">
+                    <h3 className="text-[26px] leading-[1.2em] font-medium tracking-[-0.0375em] text-[#273348] font-sans mb-4">
                         {t("projects.title")}
                     </h3>
-                    <p className="text-gray-700 mb-6">{t("projects.description")}</p>
+                    <p className="text-left text-[#657080] font-sans text-[15px] font-normal leading-[1.8em] tracking-[-0.05em]">{t("projects.description")}</p>
                     <ul className="space-y-3 text-sm text-gray-800 list-disc list-inside">
-                        <li>✏️ {t("projects.p1")}</li>
+                    <li>✏️ {t("projects.p1")}</li>
                         <li>🧠 {t("projects.p2")}</li>
                         <li>🛫 {t("projects.p3")}</li>
                     </ul>
@@ -56,10 +56,10 @@ const ShowcaseSection = () => {
                 }}
             >
                 <div>
-                    <h3 className="text-[26px] leading-[1.2em] font-medium text-[#273348] tracking-[-0.0375em] font-sans">
+                    <h3 className="text-[26px] leading-[1.2em] font-medium tracking-[-0.0375em] text-[#273348] font-sans mb-4">
                         {t("coursesTitle")}
                     </h3>
-                    <p className="text-sm text-[#273348] mb-4">{t("coursesIntro")}</p>
+                    <p className="text-left text-[#657080] font-sans text-[15px] font-normal leading-[1.8em] tracking-[-0.05em]">{t("coursesIntro")}</p>
                     <ul className="list-disc list-inside space-y-1 text-sm text-[#273348]">
                         <li>
                             <span className="inline-block w-3 h-3 bg-blue-400 rounded-full mr-2 align-middle"></span>

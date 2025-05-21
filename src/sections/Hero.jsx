@@ -16,8 +16,8 @@ const Hero = () => {
                             <span className="gradient-text">{t("heroLine2")}</span>
                         </h1>
 
-                        <p className="text-gray-700 text-base md:text-lg leading-relaxed max-w-md mx-auto md:mx-0">
-                        {t("heroDescLine1")}
+                        <p className="text-left text-[#657080] font-sans text-[17px] font-normal leading-[1.5em] tracking-[-0.047em] max-w-md mx-auto md:mx-0">
+                            {t("heroDescLine1")}
                             <br/>
                             {t("heroDescLine2")}
                         </p>
