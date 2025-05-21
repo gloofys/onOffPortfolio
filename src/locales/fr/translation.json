@@ -5,13 +5,14 @@
   "heroDescLine2": "Cette page reflète votre design — tout comme mon travail le fera.",
   "heroCTA": "Travaillons ensemble",
 
-  "letsTalk": "Discutons",
-  "login": "Connexion",
-  "footerTitle": "Navigation",
-  "about": "À propos de moi",
-  "projects": "Projets",
-  "contact": "Contact",
-  "partner": "Collaborons",
+  "nav": {
+    "why": "Pourquoi Onoff ?",
+    "about": "À propos de moi",
+    "projects": "Projets",
+    "contact": "Contact",
+    "cta": "Discutons"
+  },
+
   "whatIBringTitle": "Ce que j’apporte à l’équipe",
   "traits": [
     {
@@ -34,6 +35,22 @@
       "title": "Travail d’équipe",
       "text": "Mon expérience en tant que superviseur m’a appris à collaborer étroitement avec les designers, ouvriers et fournisseurs pour garantir la réussite des projets."
     }
-  ]
+  ],
+  "projects": {
+    "title": "Mes projets",
+    "description": "Voici quelques réalisations récentes :",
+    "p1": "Jeu de frappe en React",
+    "p2": "Moteur de décision de prêt (Spring Boot)",
+    "p3": "Application de planification de vols",
+    "cta": "Voir tous les projets"
+  },
+  "courses": {
+    "title": "Derniers cours",
+    "description": "Voici les sujets que j'étudie actuellement pour améliorer mes compétences :",
+    "c1": "Maîtriser TypeScript – Total TypeScript",
+    "c2": "Approfondissement des Hooks React",
+    "c3": "Design UI moderne avec Tailwind CSS",
+    "cta": "Découvrir mon parcours d'apprentissage"
+  }
 }
 

@@ -5,13 +5,13 @@
   "heroDescLine2": "This page mirrors your design — so will my work.",
   "heroCTA": "Let’s work together",
 
-  "letsTalk": "Let's Talk",
-  "login": "Login",
-  "footerTitle": "Navigation",
-  "about": "About Me",
-  "projects": "Projects",
-  "contact": "Contact",
-  "partner": "Let’s Work Together",
+  "nav": {
+    "why": "Why Onoff?",
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cta": "Let’s Talk"
+  },
 
   "whatIBringTitle": "What I Bring to the Table",
   "traits": [
@@ -35,5 +35,28 @@
       "title": "Teamwork",
       "text": "My experience as a construction supervisor taught me the value of teamwork by coordinating closely with designers, laborers, and suppliers to ensure successful project outcomes."
     }
-  ]
+  ],
+  "projects": {
+    "title": "My Projects",
+    "description": "Here are a few things I've built recently:",
+    "p1": "React Typing Game",
+    "p2": "Loan Decision Engine (Spring Boot)",
+    "p3": "Flight Planner App",
+    "cta": "View all projects",
+    "readMore": "Read more",
+    "readLess": "Read less"
+  },
+  "courses": {
+    "title": "Latest Courses",
+    "description": "Here's what I'm currently studying to sharpen my skills:",
+    "c1": "TypeScript Mastery – Total TypeScript",
+    "c2": "React Hooks Deep Dive",
+    "c3": "Modern UI Design with Tailwind CSS",
+    "cta": "Explore my learning journey",
+    "readMore": "Read more",
+    "readLess": "Read less"
+  },
+  "coursesTitle": "Latest Courses",
+  "coursesIntro": "Here's what I'm currently studying to sharpen my skills:",
+  "exploreCourses": "Explore my learning journey >"
 }

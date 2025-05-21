@@ -5,13 +5,15 @@ import Footer from "./sections/Footer";
 import './App.css'
 import Header from "./sections/Header.jsx";
 import WhatIBring from "./sections/WhatIBring.jsx";
+import ShowcaseSection from "./sections/ShowcaseSection.jsx";
 
 const App = () => {
     return (
-        <div className="font-sans bg-gradient-to-b from-[#F0F4FF] to-white text-gray-800">
+        <div className="font-sans text-gray-800">
             <Header />
             <Hero />
             <WhyOnoff />
+            <ShowcaseSection/>
             <WhatIBring/>
             <Footer />
         </div>
