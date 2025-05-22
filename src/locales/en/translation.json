@@ -58,5 +58,10 @@
   },
   "coursesTitle": "Latest Courses",
   "coursesIntro": "Here's what I'm currently studying to sharpen my skills:",
-  "exploreCourses": "Explore my learning journey >"
+  "exploreCourses": "Explore my learning journey >",
+  "personalNote": {
+    "title": "Life beyond the screen?",
+    "description": "When I'm not coding, you'll likely find me outdoors—playing disc golf, cycling, running or doing something sporty. I also enjoy board games and spending time with my dog.",
+    "cta": "Get to know me"
+  }
 }

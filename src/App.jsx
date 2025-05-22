@@ -7,6 +7,7 @@ import Header from "./sections/Header.jsx";
 import WhatIBring from "./sections/WhatIBring.jsx";
 import ShowcaseSection from "./sections/ShowcaseSection.jsx";
 import DeveloperPlans from "./sections/DeveloperPlans.jsx";
+import PersonalNoteSection from "./sections/PersonalNoteSection.jsx";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
             <WhyOnoff />
             <ShowcaseSection/>
             <DeveloperPlans/>
+            <PersonalNoteSection/>
             <WhatIBring/>
             <Footer />
         </div>
