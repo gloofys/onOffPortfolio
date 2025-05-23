@@ -21,28 +21,32 @@ const ShowcaseSection = () => {
                     <h3 className="text-[26px] leading-[1.2em] font-medium tracking-[-0.0375em] text-[#273348] font-sans mb-4">
                         {t("projects.title")}
                     </h3>
-                    <p className="text-left text-[#657080] font-sans text-[15px] font-normal leading-[1.8em] tracking-[-0.05em]">{t("projects.description")}</p>
-                    <ul className="space-y-3 text-sm text-gray-800 list-disc list-inside">
-                    <li>✏️ {t("projects.p1")}</li>
-                        <li>🧠 {t("projects.p2")}</li>
-                        <li>🛫 {t("projects.p3")}</li>
-                    </ul>
+                    <p className="text-left text-[#657080] font-sans text-[15px] font-normal leading-[1.8em] tracking-[-0.05em]">
+                        {t("projects.intro")}
+                    </p>
 
                     {showMoreProjects && (
-                        <div className="mt-4 text-sm text-gray-700">
-                            <p className="mb-2">
-                                ✅ Built with React, Spring Boot, PostgreSQL, and Tailwind CSS.
-                            </p>
-                            <p>
-                                🛠️ All projects are fully responsive, optimized, and deployed on Vercel or Netlify.
-                            </p>
+                        <div className="mt-4 space-y-3 text-sm text-blue-600 font-medium">
+                            <h3 className="text-[#273348] text-base font-semibold mb-1">Projects I've built:</h3>
+                            <a href="https://fredbrosman.vercel.app" target="_blank"
+                               rel="noopener noreferrer" className="block hover:underline">
+                                Original Portfolio
+                            </a>
+                            <a href="https://opacitypuzzle.vercel.app" target="_blank"
+                               rel="noopener noreferrer" className="block hover:underline">
+                                Opacity puzzle game(DESKTOP only)
+                            </a>
+                            <a href="https://badacsony.vercel.app" target="_blank"
+                               rel="noopener noreferrer" className="block hover:underline">
+                                Badacsony rental website
+                            </a>
                         </div>
                     )}
                 </div>
 
                 <button
                     onClick={() => setShowMoreProjects(!showMoreProjects)}
-                    className="mt-6 text-blue-600 font-semibold hover:underline text-left"
+                    className="mt-6 text-[#4B70F9] font-medium hover:underline text-left"
                 >
                     {showMoreProjects ? t("projects.readLess") : t("projects.readMore")}
                 </button>
@@ -50,47 +54,40 @@ const ShowcaseSection = () => {
 
             {/* RIGHT: Courses */}
             <div
-                className="relative bg-[#FFE7D8] bg-no-repeat bg-[length:67%_auto] bg-[position:150px_275px] px-[50px] pt-[50px] pb-[200px] rounded-[24px] transition-all duration-300"
+                className="relative bg-[#FFE7D8] bg-no-repeat bg-[length:67%_auto] bg-[position:150px_275px] px-[50px] pt-[50px] rounded-[24px] transition-all duration-300"
                 style={{
                     backgroundImage: "url('/src/assets/DiscTransparent.png')",
                 }}
             >
-                <div>
-                    <h3 className="text-[26px] leading-[1.2em] font-medium tracking-[-0.0375em] text-[#273348] font-sans mb-4">
-                        {t("coursesTitle")}
-                    </h3>
-                    <p className="text-left text-[#657080] font-sans text-[15px] font-normal leading-[1.8em] tracking-[-0.05em]">{t("coursesIntro")}</p>
-                    <ul className="list-disc list-inside space-y-1 text-sm text-[#273348]">
-                        <li>
-                            <span className="inline-block w-3 h-3 bg-blue-400 rounded-full mr-2 align-middle"></span>
-                            TypeScript Mastery – TotalTypeScript
-                        </li>
-                        <li>
-                            <span className="inline-block w-3 h-3 bg-purple-400 rounded-full mr-2 align-middle"></span>
-                            React Hooks Deep Dive
-                        </li>
-                        <li>
-                            <span className="inline-block w-3 h-3 bg-red-400 rounded-full mr-2 align-middle"></span>
-                            Modern CSS Layouts
-                        </li>
-                    </ul>
+                <div className="flex flex-col justify-between min-h-[260px] pb-[50px]">
+                    {/* Title + description */}
+                    <div>
+                        <h3 className="text-[26px] leading-[1.2em] font-medium tracking-[-0.0375em] text-[#273348] font-sans mb-4">
+                            {t("coursesTitle")}
+                        </h3>
+                        <p className="text-left text-[#657080] font-sans text-[15px] font-normal leading-[1.8em] tracking-[-0.05em]">
+                            {t("coursesIntro")}
+                        </p>
 
-                    {showMoreCourses && (
-                        <div className="mt-4 text-sm text-gray-700">
-                            <p className="mb-2">
-                                📖 These courses are part of my self-paced deep dive into advanced front-end development.
-                            </p>
-                            <p>🧪 I apply each concept immediately in real projects.</p>
-                        </div>
-                    )}
+                        {showMoreCourses && (
+                            <div className="mt-4 text-sm text-gray-700 space-y-2">
+                                <p>📘 TypeScript Mastery – TotalTypeScript</p>
+                                <p>🔍 React Hooks Deep Dive</p>
+                                <p>🎨 Modern CSS Layouts</p>
+                                <p>🧪 Applying concepts in real projects for retention.</p>
+                            </div>
+                        )}
+                    </div>
 
+                    {/* CTA */}
                     <button
                         onClick={() => setShowMoreCourses(!showMoreCourses)}
-                        className="mt-4 text-blue-600 font-medium hover:underline text-left"
+                        className="text-[#4B70F9] font-sans text-[15px] font-semibold leading-[18px] hover:underline text-left"
                     >
                         {showMoreCourses ? t("courses.readLess") : t("courses.readMore")}
                     </button>
                 </div>
+
             </div>
         </section>
     );

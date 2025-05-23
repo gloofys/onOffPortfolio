@@ -37,11 +37,8 @@
     }
   ],
   "projects": {
-    "title": "My Projects",
-    "description": "Here are a few things I've built recently:",
-    "p1": "React Typing Game",
-    "p2": "Loan Decision Engine (Spring Boot)",
-    "p3": "Flight Planner App",
+    "title": "Latest Projects",
+    "intro": "From a React-based Typing Game and a Loan Decision Engine built with Spring Boot to a full-featured Flight Planner App — I’ve been crafting full-stack tools that solve real problems and deliver clean user experiences.",
     "cta": "View all projects",
     "readMore": "Read more",
     "readLess": "Read less"
