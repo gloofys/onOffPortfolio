@@ -8,13 +8,14 @@ import WhatIBring from "./sections/WhatIBring.jsx";
 import ShowcaseSection from "./sections/ShowcaseSection.jsx";
 import DeveloperPlans from "./sections/DeveloperPlans.jsx";
 import PersonalNoteSection from "./sections/PersonalNoteSection.jsx";
+import VideoSection from "./sections/VideoSection.jsx";
 
 const App = () => {
     return (
         <div className="font-sans text-gray-800">
             <Header />
             <Hero />
-            <WhyOnoff />
+            <VideoSection />
             <ShowcaseSection/>
             <DeveloperPlans/>
             <PersonalNoteSection/>
