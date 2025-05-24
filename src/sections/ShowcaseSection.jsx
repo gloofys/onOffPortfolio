@@ -12,7 +12,7 @@ const ShowcaseSection = () => {
             <div className="bg-[#EAF8F0] p-8 rounded-3xl shadow-sm flex flex-col justify-between pb-[50px]">
                 <div className="mb-6 text-center">
                     <img
-                        src="/public/assets/ProjectsImageBlurred.png"
+                        src="/assets/ProjectsImageBlurred.png"
                         alt="Project Preview"
                         className="mx-auto w-full rounded-lg"
                     />
@@ -57,7 +57,7 @@ const ShowcaseSection = () => {
             <div
                 className="relative bg-[#FFE7D8] bg-no-repeat bg-[length:67%_auto] bg-[position:150px_275px] px-[50px] pt-[50px] rounded-[24px] transition-all duration-300"
                 style={{
-                    backgroundImage: "url('/src/assets/DiscTransparent.png')",
+                    backgroundImage: "url('/assets/DiscTransparent.png')",
                 }}
             >
                 <div className="flex flex-col justify-between min-h-[260px] pb-[50px]">

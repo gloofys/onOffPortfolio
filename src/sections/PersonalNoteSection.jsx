@@ -21,7 +21,7 @@ const PersonalNoteSection = () => {
             {/* RIGHT: Image */}
             <div className="md:w-[40%]">
                 <img
-                    src="/public/assets/fredcatheadcards.png"
+                    src="/assets/fredcatheadcards.png"
                     alt="Personal snapshot"
                     className="w-full h-[260px] md:h-[100%] object-cover rounded-2xl"
                 />
