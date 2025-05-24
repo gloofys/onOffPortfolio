@@ -33,7 +33,7 @@ const Hero = () => {
                     {/* RIGHT COLUMN: Image */}
                     <div className="md:w-1/2 flex justify-center">
                         <img
-                            src="/src/assets/manwithtelephonetransparent.png"
+                            src="/public/assets/manwithtelephonetransparent.png"
                             alt="Phone mockup"
                             className="w-[300px] md:w-[400px] drop-shadow-xl"
                         />

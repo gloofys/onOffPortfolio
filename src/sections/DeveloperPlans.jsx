@@ -4,7 +4,7 @@ const DeveloperPlanSection = () => {
     const { t } = useTranslation();
 
     return (
-        <section className="max-w-7xl mx-auto px-4 py-20 md:flex md:gap-8">
+        <section id="techStack" className="max-w-[1140px] mx-auto px-4 py-20 md:flex md:gap-8">
             <div className="w-full md:w-[66.607%] flex flex-col justify-center space-y-6">
                 {/* Title */}
                 <h2 className="text-3xl font-extrabold text-[#273348] leading-tight">
@@ -35,19 +35,20 @@ const DeveloperPlanSection = () => {
             <div className="w-full md:w-[33.393%] rounded-xl p-6 bg-[#FCFCFC]">
                 <h3 className="text-[#4B70F9] font-medium mb-4 text-[16px] leading-[24px] font-sans">
                     {t("techStack.enjoy")}{" "}
-                    <strong className="font-semibold">{t("techStack.strong")}</strong>{" "}
+                    <strong className="font-bold">{t("techStack.strong")}</strong>{" "}
                     {t("techStack.with")}
                 </h3>
-                <ul className="text-sm text-[#273348] space-y-2 ">
+                <ul className="text-[16px] text-[#657080] space-y-2 leading-[20px] tracking-tighter">
                     {[
-                        "React / TypeScript",
-                        "Tailwind / SCSS",
-                        "Zustand / Redux Toolkit",
-                        "React Hook Form / Zod",
-                        "React Router / TanStack Query",
-                        "Node.js / Express",
-                        "PostgreSQL / Prisma",
-                        "Docker / Git / CI",
+                        "React / Vue",
+                        "Tailwind / SCSS / Bootstrap",
+                        "Java / Springboot / Node.js",
+                        "PostgreSQL",
+                        "React Router / Redux",
+                        "Javascript/ Typescript",
+                        "Docker / Git",
+                        "IntelliJIDEA / VSCode",
+                        "Jira / Confluence"
                     ].map((item, index) => (
                         <li key={index} className="text-[#657080] flex items-start gap-2 py-[7px] leading-5">
                             <img

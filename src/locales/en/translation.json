@@ -7,10 +7,16 @@
 
   "nav": {
     "why": "Why Onoff?",
-    "about": "About Me",
     "projects": "Projects",
-    "contact": "Contact",
+    "techStack": "Tech Stack",
+    "aboutMe": "About me",
     "cta": "Let’s Talk"
+  },
+
+  "revolution": {
+    "headlineAccent": "Why",
+    "headline": "Onoff?",
+    "description": "I love working on products that simplify everyday life through smart design. Onoff’s mission to reinvent mobile communication is something I believe in — and I’d love to help shape its future."
   },
 
   "whatIBringTitle": "What I Bring to the Table",
@@ -41,21 +47,31 @@
     "intro": "From a React-based Typing Game and a Loan Decision Engine built with Spring Boot to a full-featured Flight Planner App — I’ve been crafting full-stack tools that solve real problems and deliver clean user experiences.",
     "cta": "View all projects",
     "readMore": "Read more",
-    "readLess": "Read less"
+    "readLess": "Read less",
+    "detailsTitle": "Projects I've built:",
+    "p1": "Original Portfolio",
+    "p2": "Opacity puzzle game (DESKTOP only)",
+    "p3": "Badacsony rental website"
   },
+
   "courses": {
-    "title": "Latest Courses",
-    "description": "Here's what I'm currently studying to sharpen my skills:",
-    "c1": "TypeScript Mastery – Total TypeScript",
-    "c2": "React Hooks Deep Dive",
-    "c3": "Modern UI Design with Tailwind CSS",
-    "cta": "Explore my learning journey",
-    "readMore": "Read more",
-    "readLess": "Read less"
-  },
   "coursesTitle": "Latest Courses",
-  "coursesIntro": "Here's what I'm currently studying to sharpen my skills:",
+  "coursesIntro": "I'm always looking for ways to grow — here are a few recent courses I've completed.",
   "exploreCourses": "Explore my learning journey >",
+    "readMore": "Read more",
+    "readLess": "Read less",
+    "detailsTitle": "Certificates from my latest courses:",
+    "c1": "Data Science in Business Decision-Making",
+    "c2": "Vali IT! Junior Software Developer Program",
+    "c3": "Basic Accounting Standards and Practices"
+  },
+  "techStack": {
+    "enjoy": "This is my",
+    "strong": "Tech Stack ",
+    "with": "- tools I've used in my projects."
+  },
+
+
   "personalNote": {
     "title": "Life beyond the screen?",
     "description": "When I'm not coding, you'll likely find me outdoors—playing disc golf, cycling, running or doing something sporty. I also enjoy board games and spending time with my dog.",

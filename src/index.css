@@ -5,6 +5,10 @@ body {
     @apply font-sans;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @keyframes slide-down {
     from {
         opacity: 0;
@@ -31,5 +35,5 @@ body {
 }
 
 @theme {
-    --font-sans: "work-sans", sans-serif;
+    --font-sans: "Work Sans", sans-serif;
 }

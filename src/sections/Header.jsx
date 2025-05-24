@@ -11,58 +11,62 @@ const Header = () => {
 
     const navItems = [
         { label: t("nav.why"), href: "#why" },
-        { label: t("nav.about"), href: "#about" },
         { label: t("nav.projects"), href: "#projects" },
-        { label: t("nav.contact"), href: "#contact" },
+        { label: t("nav.techStack"), href: "#techStack" },
+        { label: t("nav.aboutMe"), href: "#aboutMe" },
     ];
 
 
     return (
         <header className="bg-white sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-[72px]">
+                <div className="flex items-center h-[72px]">
                     {/* Logo */}
                     <div className="flex items-center space-x-3">
                         <img
-                            src="/src/assets/FBOnOff.png"
+                            src="/public/assets/FBOnOff.png"
                             alt="Logo"
                             className="h-9 w-9 rounded-full bg-gradient-to-br from-blue-100 to-blue-300 p-1"
                         />
-                        <span className="text-xl font-semibold text-gray-900">
-          Fred<span className="text-[#339CFF] font-bold">Brosman</span>
+                        <span className="text-xl font-semibold text-gray-900 font-sans">
+            Fred<span className="text-[#339CFF] font-bold">Brosman</span>
         </span>
                     </div>
 
-                    {/* Desktop Navigation */}
-                    <nav className="hidden md:flex items-center space-x-6 text-sm text-[#273348] font-medium">
-                        {navItems.map((item) => (
-                            <a
-                                key={item.label}
-                                href={item.href}
-                                className="hover:text-[#339CFF] transition"
-                            >
-                                {item.label}
-                            </a>
-                        ))}
-                        {/* Icon (optional, mimic chat icon) */}
-                        <div className="ml-4">
-                            <LanguageSwitcher/>
-                        </div>
-                    </nav>
+                    {/* Right section (nav + cta) */}
+                    <div className="ml-auto flex items-center space-x-6">
+                        {/* Desktop Navigation */}
+                        <nav
+                            className="hidden md:flex items-center space-x-6 text-sm text-[#273348] font-medium font-sans">
+                            {navItems.map((item) => (
+                                <a
+                                    key={item.label}
+                                    href={item.href}
+                                    className="hover:text-[#339CFF] transition"
+                                >
+                                    {item.label}
+                                </a>
+                            ))}
+                            <div className="ml-4">
+                                <LanguageSwitcher/>
+                            </div>
+                        </nav>
 
-                    {/* Right side: CTA + login */}
-                    <div className="hidden md:flex items-center space-x-4">
-                        <a
-                            href="#contact"
-                            className="px-5 py-2 rounded-full bg-[#007BFF] text-white text-sm font-medium hover:bg-blue-700 transition"
-                        >
-                            {t("nav.cta")}
-                        </a>
+                        {/* CTA Button */}
+                        <div className="hidden md:flex items-center ml-[20px]">
+                            <a
+                                href="https://drive.google.com/file/d/1aUr9iR7RXMLaJLjzofdVfHDISMH_Kj4T/view"
+                                target="_blank"
+                                className="px-[15px] py-[10px] bg-white border-2 border-[#007bff] rounded-[27px] text-[#007bff] text-sm font-medium hover:bg-[#007bff] hover:text-white transition"
+                            >
+                                Curriculum Vitae
+                            </a>
+                        </div>
                     </div>
 
                     {/* Mobile Menu Button */}
                     <button
-                        className="md:hidden relative w-8 h-8 focus:outline-none"
+                        className="md:hidden relative w-8 h-8 focus:outline-none ml-auto"
                         onClick={toggleMenu}
                         aria-label="Toggle menu"
                     >
@@ -87,8 +91,7 @@ const Header = () => {
 
             {/* Mobile Menu */}
             {mobileOpen && (
-                <div
-                    className="fixed top-16 left-0 right-0 bg-white shadow-md z-40 px-6 py-6 animate-slide-down rounded-b-xl">
+                <div className="fixed top-16 left-0 right-0 bg-white shadow-md z-40 px-6 py-6 animate-slide-down rounded-b-xl">
                     <nav className="flex flex-col items-center space-y-4 text-[#273348] text-base font-medium">
                         {navItems.map((item) => (
                             <a
@@ -100,12 +103,22 @@ const Header = () => {
                                 {item.label}
                             </a>
                         ))}
+
+                        {/* Language Switcher */}
+                        <div className="pt-2">
+                            <LanguageSwitcher />
+                        </div>
+
+                        {/* CV Button */}
                         <a
-                            href="#contact"
-                            className="mt-4 inline-block px-5 py-2 border border-blue-500 text-blue-500 rounded-full hover:bg-blue-50 transition"
+                            href="https://drive.google.com/file/d/1aUr9iR7RXMLaJLjzofdVfHDISMH_Kj4T/view"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-4 inline-block px-[15px] py-[10px] bg-white border-2 border-[#007bff] rounded-[27px] text-[#007bff] text-sm font-medium hover:bg-[#007bff] hover:text-white transition"
                         >
-                            Let’s Talk
+                            Curriculum Vitae
                         </a>
+
                     </nav>
                 </div>
             )}
