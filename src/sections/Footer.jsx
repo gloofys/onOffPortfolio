@@ -8,7 +8,7 @@ const Footer = () => {
                 {/* Column 1: Logo + Note */}
                 <div className="w-full md:w-1/4 space-y-3">
                     <div className="flex items-center gap-2">
-                        <img src="/public/assets/FBOnOff.png" alt="Logo" className="h-6" />
+                        <img src="/assets/FBOnOff.png" alt="Logo" className="h-6" />
                         <span className="text-lg font-semibold text-gray-800">
               Fred<span className="text-blue-500">Brosman</span>
             </span>

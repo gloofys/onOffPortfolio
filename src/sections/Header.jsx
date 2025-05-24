@@ -24,7 +24,7 @@ const Header = () => {
                     {/* Logo */}
                     <div className="flex items-center space-x-3">
                         <img
-                            src="/public/assets/FBOnOff.png"
+                            src="/assets/FBOnOff.png"
                             alt="Logo"
                             className="h-9 w-9 rounded-full bg-gradient-to-br from-blue-100 to-blue-300 p-1"
                         />
