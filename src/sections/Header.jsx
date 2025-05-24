@@ -22,16 +22,16 @@ const Header = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center h-[72px]">
                     {/* Logo */}
-                    <div className="flex items-center space-x-3">
+                    <a href="#" className="flex items-center space-x-3">
                         <img
                             src="/assets/FBOnOff.png"
                             alt="Logo"
                             className="h-9 w-9 rounded-full bg-gradient-to-br from-blue-100 to-blue-300 p-1"
                         />
                         <span className="text-xl font-semibold text-gray-900 font-sans">
-            Fred<span className="text-[#339CFF] font-bold">Brosman</span>
-        </span>
-                    </div>
+    Fred<span className="text-[#339CFF] font-bold">Brosman</span>
+  </span>
+                    </a>
 
                     {/* Right section (nav + cta) */}
                     <div className="ml-auto flex items-center space-x-6">
@@ -91,9 +91,10 @@ const Header = () => {
 
             {/* Mobile Menu */}
             {mobileOpen && (
-                <div className="fixed top-16 left-0 right-0 bg-white shadow-md z-40 px-6 py-6 animate-slide-down rounded-b-xl">
+                <div
+                    className="fixed top-16 left-0 right-0 bg-white shadow-md z-40 px-6 py-6 animate-slide-down rounded-b-xl">
                     <nav className="flex flex-col items-center space-y-4 text-[#273348] text-base font-medium">
-                        {navItems.map((item) => (
+                    {navItems.map((item) => (
                             <a
                                 key={item.label}
                                 href={item.href}
