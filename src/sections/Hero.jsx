@@ -22,12 +22,6 @@ const Hero = () => {
                             {t("heroDescLine2")}
                         </p>
 
-                        <a
-                            href="#contact"
-                            className="inline-block bg-[#4B70F9] hover:bg-blue-700 text-white text-base font-semibold px-6 py-3 rounded-full transition"
-                        >
-                            {t("heroCTA")}
-                        </a>
                     </div>
 
                     <div className="md:w-1/2 flex justify-center">

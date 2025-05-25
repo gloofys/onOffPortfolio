@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className="w-full md:w-1/4 space-y-2">
                     <h4 className="font-semibold text-gray-700">{t("footer.contact")}</h4>
                     <p>{t("footer.email")}: fred.brosman06@gmail.com</p>
-                    <p>{t("footer.phone")}: +372 1234 5678</p>
+                    <p>{t("footer.phone")}: +372 5686 3593</p>
             </div>
 
             <div className="w-full md:w-1/4 flex md:justify-end items-center gap-6 mt-4 md:mt-0">
