@@ -2,7 +2,7 @@
   "heroLine1": "Your new junior developer",
   "heroLine2": "Fred Brosman",
   "heroDescLine1": "Focused on building clear, modern React front-ends.",
-  "heroDescLine2": "This page mirrors your design — so will my work.",
+  "heroDescLine2": "This page follows your design — so will my work.",
   "heroCTA": "Let’s work together",
 
   "nav": {
@@ -78,7 +78,7 @@
     "cta": "Get to know me"
   },
   "devPlan": {
-    "title": "Choose the right dev partner for your project",
+    "title": "Choose the right dev for your team",
     "subtext": "Whether you're building a sleek UI, need bug fixes, or someone to jump into an agile team — I'm here to help.",
     "location": "Tallinn — available to work 5 days in office and/or remote",
     "cta": "Let’s work together"
