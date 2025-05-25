@@ -3,7 +3,6 @@ import Hero from "./sections/Hero";
 import Footer from "./sections/Footer";
 import './App.css'
 import Header from "./sections/Header.jsx";
-import WhatIBring from "./sections/WhatIBring.jsx";
 import ShowcaseSection from "./sections/ShowcaseSection.jsx";
 import DeveloperPlans from "./sections/DeveloperPlans.jsx";
 import PersonalNoteSection from "./sections/PersonalNoteSection.jsx";
