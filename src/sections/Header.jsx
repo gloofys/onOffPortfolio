@@ -17,7 +17,6 @@ const Header = () => {
         { label: t("nav.contact"), href: "#contact" },
     ];
 
-
     return (
         <header className="bg-white sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,9 +33,7 @@ const Header = () => {
   </span>
                     </a>
 
-                    {/* Right section (nav + cta) */}
                     <div className="ml-auto flex items-center space-x-6">
-                        {/* Desktop Navigation */}
                         <nav
                             className="hidden md:flex items-center space-x-6 text-sm text-[#273348] font-medium font-sans">
                             {navItems.map((item) => (
@@ -53,7 +50,6 @@ const Header = () => {
                             </div>
                         </nav>
 
-                        {/* CTA Button */}
                         <div className="hidden md:flex items-center ml-[20px]">
                             <a
                                 href="https://drive.google.com/file/d/1aUr9iR7RXMLaJLjzofdVfHDISMH_Kj4T/view"
@@ -65,7 +61,6 @@ const Header = () => {
                         </div>
                     </div>
 
-                    {/* Mobile Menu Button */}
                     <button
                         className="md:hidden relative w-8 h-8 focus:outline-none ml-auto"
                         onClick={toggleMenu}
@@ -90,7 +85,6 @@ const Header = () => {
                 </div>
             </div>
 
-            {/* Mobile Menu */}
             {mobileOpen && (
                 <div
                     className="fixed top-16 left-0 right-0 bg-white shadow-md z-40 px-6 py-6 animate-slide-down rounded-b-xl">
@@ -106,12 +100,10 @@ const Header = () => {
                             </a>
                         ))}
 
-                        {/* Language Switcher */}
                         <div className="pt-2">
                             <LanguageSwitcher />
                         </div>
 
-                        {/* CV Button */}
                         <a
                             href="https://drive.google.com/file/d/1aUr9iR7RXMLaJLjzofdVfHDISMH_Kj4T/view"
                             target="_blank"

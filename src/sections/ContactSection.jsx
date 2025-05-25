@@ -11,7 +11,6 @@ const ContactSection = () => {
                             backgroundImage: "url('/assets/phoneFrame.png')",
                         }}
                     >
-                        {/* Inner content (placed inside the screen area) */}
                         <div
                             className="absolute top-[70px] left-[25px] right-[25px] bottom-[25px] rounded-[32px] bg-white px-4 py-6 text-[#273348] overflow-hidden">
                             {/* Profile Image */}
@@ -25,7 +24,6 @@ const ContactSection = () => {
                                 <p className="text-sm text-gray-500">Full-Stack Developer</p>
                             </div>
 
-                            {/* Contact Info */}
                             <div className="space-y-4 text-sm">
                                 <div>
                                     <span className="font-medium block">📧 Email</span>
@@ -41,7 +39,6 @@ const ContactSection = () => {
                                 </div>
                             </div>
 
-                            {/* Social Icons */}
                             <div className="flex flex-col gap-4 mt-8">
                                 <a
                                     href="https://www.linkedin.com/in/fred-brosman"

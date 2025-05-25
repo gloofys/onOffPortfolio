@@ -18,7 +18,6 @@ const PersonalNoteSection = () => {
                 {/*</a>*/}
             </div>
 
-            {/* RIGHT: Image */}
             <div className="md:w-[40%]">
                 <img
                     src="/assets/fredcatheadcards.png"

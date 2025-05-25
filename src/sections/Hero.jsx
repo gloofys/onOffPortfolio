@@ -30,7 +30,6 @@ const Hero = () => {
                         </a>
                     </div>
 
-                    {/* RIGHT COLUMN: Image */}
                     <div className="md:w-1/2 flex justify-center">
                         <img
                             src="/assets/manwithtelephonetransparent.png"

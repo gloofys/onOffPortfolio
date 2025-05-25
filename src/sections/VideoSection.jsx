@@ -5,17 +5,14 @@ const VideoSection = () => {
 
     return (
         <section id="why" className="max-w-5xl mx-auto px-4 py-10 text-center scroll-mt-20 pt-20">
-            {/* Headline */}
             <h2 className="text-3xl md:text-4xl font-bold text-[#273348]">
                 <span className="text-[#4B70F9]">{t("revolution.headlineAccent")}</span> {t("revolution.headline")}
             </h2>
 
-            {/* Subtext */}
             <p className="text-[#657080] max-w-7xl mx-auto mt-4 text-base md:text-lg leading-relaxed">
                 {t("revolution.description")}
             </p>
 
-            {/* Video Embed */}
             <div className="relative overflow-hidden rounded-2xl shadow-md mt-10 mx-auto w-full max-w-7xl aspect-video">
                 <iframe
                     className="absolute top-0 left-0 w-full h-full"

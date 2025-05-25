@@ -1,15 +1,14 @@
-import { useState } from "react";
-import { useTranslation } from "react-i18next";
+import {useState} from "react";
+import {useTranslation} from "react-i18next";
 
 const ShowcaseSection = () => {
-    const { t } = useTranslation();
+    const {t} = useTranslation();
     const [showMoreProjects, setShowMoreProjects] = useState(false);
     const [showMoreCourses, setShowMoreCourses] = useState(false);
 
     return (
         <section id="projects"
                  className="max-w-[1140px] mx-auto px-4 py-[15px] pb-[40px] grid md:grid-cols-2 gap-8 scroll-mt-20 md:pt-20 pt-0">
-            {/* LEFT: Projects */}
             <div className="bg-[#EAF8F0] p-8 rounded-3xl shadow-sm flex flex-col justify-between pb-[50px]">
                 <div className="mb-6 text-center">
                     <img
@@ -55,7 +54,6 @@ const ShowcaseSection = () => {
                 </button>
             </div>
 
-            {/* RIGHT: Courses */}
             <div
                 className="relative bg-[#FFE7D8] px-[30px] pt-[50px] pb-[0px] rounded-[24px] transition-all duration-300 flex flex-col justify-between">
                 <div>
@@ -88,7 +86,6 @@ const ShowcaseSection = () => {
                     </button>
                 </div>
 
-                {/* Add image inside layout so it's pushed by content */}
                 <div className="w-full mt-8 flex justify-end">
                     <img
                         src="/assets/DiscTransparent.png"

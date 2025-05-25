@@ -1,11 +1,11 @@
-import { useTranslation } from "react-i18next";
+import {useTranslation} from "react-i18next";
 
 const DeveloperPlanSection = () => {
-    const { t } = useTranslation();
+    const {t} = useTranslation();
 
     return (
         <section id="techStack" className="max-w-[1140px] mx-auto md:py-[30px] md:flex md:gap-8 p-[25px]">
-            <div className="w-full md:w-[66.607%] flex flex-col justify-center space-y-6">
+            <div className="w-full md:w-[66.607%] flex flex-col justify-center space-y-6 pb-[20px] md:pb-0">
                 {/* Title */}
                 <h2 className="text-3xl font-extrabold text-[#273348] leading-tight">
                     {t("devPlan.title")} <span className="ml-1">👋</span>
@@ -16,12 +16,10 @@ const DeveloperPlanSection = () => {
                     {t("devPlan.subtext")}
                 </p>
 
-                {/* Availability */}
                 <p className="text-[#273348] font-medium">
                     📍 {t("devPlan.location")}
                 </p>
 
-                {/* CTA Button */}
                 <a
                     href="#contact"
                     className="inline-block w-fit px-6 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition"
@@ -30,7 +28,6 @@ const DeveloperPlanSection = () => {
                 </a>
             </div>
 
-            {/* RIGHT PANEL - Tech Stack */}
             <div className="w-full md:w-[33.393%] rounded-xl p-6 bg-[#FCFCFC]">
                 <h3 className="text-[#4B70F9] font-medium mb-4 text-[16px] leading-[24px] font-sans">
                     {t("techStack.enjoy")}{" "}
