@@ -88,7 +88,7 @@ const ShowcaseSection = () => {
 
                 <div className="w-full mt-8 flex justify-end">
                     <img
-                        src="/assets/DiscTransparent.png"
+                        src="/assets/DiscTransparent2.png"
                         alt="Disc"
                         className="w-[180px] sm:w-[180px] md:w-[180px] lg:w-[300px]"
                     />
