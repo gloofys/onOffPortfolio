@@ -8,7 +8,7 @@ const ShowcaseSection = () => {
 
     return (
         <section id="projects"
-                 className="max-w-[1140px] mx-auto px-4 py-[15px] pb-[40px] grid md:grid-cols-2 gap-8 scroll-mt-20 pt-20">
+                 className="max-w-[1140px] mx-auto px-4 py-[15px] pb-[40px] grid md:grid-cols-2 gap-8 scroll-mt-20 md:pt-20 pt-0">
             {/* LEFT: Projects */}
             <div className="bg-[#EAF8F0] p-8 rounded-3xl shadow-sm flex flex-col justify-between pb-[50px]">
                 <div className="mb-6 text-center">

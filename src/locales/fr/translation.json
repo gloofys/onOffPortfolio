@@ -7,10 +7,16 @@
 
   "nav": {
     "why": "Pourquoi Onoff ?",
-    "about": "À propos de moi",
     "projects": "Projets",
-    "contact": "Contact",
-    "cta": "Discutons"
+    "techStack": "Technologies",
+    "aboutMe": "À propos de moi",
+    "contact": "Contact"
+  },
+
+  "revolution": {
+    "headlineAccent": "Pourquoi",
+    "headline": "Onoff ?",
+    "description": "J’aime travailler sur des produits qui simplifient le quotidien grâce à un design intelligent. La mission d’Onoff, qui consiste à réinventer la communication mobile, me parle — et j’aimerais contribuer à façonner son avenir."
   },
 
   "whatIBringTitle": "Ce que j’apporte à l’équipe",
@@ -36,21 +42,57 @@
       "text": "Mon expérience en tant que superviseur m’a appris à collaborer étroitement avec les designers, ouvriers et fournisseurs pour garantir la réussite des projets."
     }
   ],
-  "projects": {
-    "title": "Mes projets",
-    "description": "Voici quelques réalisations récentes :",
-    "p1": "Jeu de frappe en React",
-    "p2": "Moteur de décision de prêt (Spring Boot)",
-    "p3": "Application de planification de vols",
-    "cta": "Voir tous les projets"
-  },
-  "courses": {
-    "title": "Derniers cours",
-    "description": "Voici les sujets que j'étudie actuellement pour améliorer mes compétences :",
-    "c1": "Maîtriser TypeScript – Total TypeScript",
-    "c2": "Approfondissement des Hooks React",
-    "c3": "Design UI moderne avec Tailwind CSS",
-    "cta": "Découvrir mon parcours d'apprentissage"
-  }
-}
 
+  "projects": {
+    "title": "Derniers projets",
+    "intro": "Du jeu de frappe en React au moteur de décision de prêt avec Spring Boot, en passant par une application de planification de vols — je développe des outils full-stack pensés pour résoudre des problèmes concrets avec des interfaces propres.",
+    "cta": "Voir tous les projets",
+    "readMore": "En savoir plus",
+    "readLess": "Réduire",
+    "detailsTitle": "Mes projets récents :",
+    "p1": "Portfolio original",
+    "p2": "Jeu de réflexion Opacity (version bureau uniquement)",
+    "p3": "Site de location à Badacsony"
+  },
+
+  "courses": {
+    "coursesTitle": "Derniers cours",
+    "coursesIntro": "Je cherche constamment à progresser — voici quelques formations récemment terminées.",
+    "exploreCourses": "Voir tout mon apprentissage >",
+    "readMore": "En savoir plus",
+    "readLess": "Réduire",
+    "detailsTitle": "Certificats de mes dernières formations :",
+    "c1": "Data Science appliquée aux décisions business",
+    "c2": "Vali IT! Programme Développeur Junior",
+    "c3": "Notions de comptabilité de base"
+  },
+
+  "techStack": {
+    "enjoy": "Voici ma",
+    "strong": "stack technique",
+    "with": "— des outils utilisés dans mes projets."
+  },
+
+  "personalNote": {
+    "title": "Et en dehors du code ?",
+    "description": "Quand je ne code pas, je suis souvent dehors — à jouer au disc golf, faire du vélo, courir ou pratiquer d'autres sports. J’aime aussi les jeux de société et passer du temps avec mon chien.",
+    "cta": "Apprenez à me connaître"
+  },
+  "devPlan": {
+    "title": "Choisissez le bon partenaire développeur pour votre projet",
+    "subtext": "Que vous construisiez une interface soignée, ayez besoin de corrections de bugs ou d’un renfort dans une équipe agile — je suis là pour vous aider.",
+    "location": "Tallinn — disponible pour travailler 5 jours au bureau et/ou à distance",
+    "cta": "Travaillons ensemble"
+  },
+  "footer": {
+    "note1": "Inspiré du design d'Onoff.",
+    "note2": "Ceci est une démonstration de portfolio.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "partnerUp": "Travaillons ensemble"
+  }
+
+
+}

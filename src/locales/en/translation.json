@@ -76,5 +76,23 @@
     "title": "Life beyond the screen?",
     "description": "When I'm not coding, you'll likely find me outdoors—playing disc golf, cycling, running or doing something sporty. I also enjoy board games and spending time with my dog.",
     "cta": "Get to know me"
+  },
+  "devPlan": {
+    "title": "Choose the right dev partner for your project",
+    "subtext": "Whether you're building a sleek UI, need bug fixes, or someone to jump into an agile team — I'm here to help.",
+    "location": "Tallinn — available to work 5 days in office and/or remote",
+    "cta": "Let’s work together"
+  },
+
+  "footer": {
+    "note1": "Styled after Onoff design.",
+    "note2": "This is a portfolio demo.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "partnerUp": "Partner Up"
   }
+
+
 }

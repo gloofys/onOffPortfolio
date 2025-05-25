@@ -8,18 +8,17 @@ const DeveloperPlanSection = () => {
             <div className="w-full md:w-[66.607%] flex flex-col justify-center space-y-6">
                 {/* Title */}
                 <h2 className="text-3xl font-extrabold text-[#273348] leading-tight">
-                    Choose the right dev partner for your project <span className="ml-1">👋</span>
+                    {t("devPlan.title")} <span className="ml-1">👋</span>
                 </h2>
 
                 {/* Subtext */}
                 <p className="text-[#657080] text-base leading-relaxed tracking-tight">
-                    Whether you're building a sleek UI, need bug fixes, or someone to jump into an agile team — I'm here
-                    to help.
+                    {t("devPlan.subtext")}
                 </p>
 
                 {/* Availability */}
                 <p className="text-[#273348] font-medium">
-                    📍 Tallinn — available to work <strong>5 days in office</strong> and/or <strong>remote</strong>
+                    📍 {t("devPlan.location")}
                 </p>
 
                 {/* CTA Button */}
@@ -27,7 +26,7 @@ const DeveloperPlanSection = () => {
                     href="#contact"
                     className="inline-block w-fit px-6 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition"
                 >
-                    Let’s work together
+                    {t("devPlan.cta")}
                 </a>
             </div>
 
