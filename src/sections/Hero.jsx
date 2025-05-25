@@ -9,7 +9,7 @@ const Hero = () => {
                 className="bg-[#C2E5FF] pt-[100px] px-[50px] pb-0 lg:pt-[90px] lg:px-0 md:pt-0 md:px-[15px] rounded-[24px]">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
                     {/* LEFT COLUMN: Text */}
-                    <div className="md:w-1/2 space-y-6 text-center md:text-left">
+                    <div className="md:w-1/2 space-y-6 text-left md:text-left">
                         <h1 className="text-[32px] leading-[38px] md:text-[48px] md:leading-[58px] font-medium tracking-[-0.0375em] text-[#273348]">
                             {t("heroLine1")}
                             <br/>

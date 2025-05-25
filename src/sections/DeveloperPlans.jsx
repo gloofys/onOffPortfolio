@@ -4,7 +4,7 @@ const DeveloperPlanSection = () => {
     const { t } = useTranslation();
 
     return (
-        <section id="techStack" className="max-w-[1140px] mx-auto px-4 py-20 md:flex md:gap-8">
+        <section id="techStack" className="max-w-[1140px] mx-auto md:py-[30px] md:flex md:gap-8 p-[25px]">
             <div className="w-full md:w-[66.607%] flex flex-col justify-center space-y-6">
                 {/* Title */}
                 <h2 className="text-3xl font-extrabold text-[#273348] leading-tight">

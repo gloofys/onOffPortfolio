@@ -10,7 +10,7 @@
     "projects": "Projects",
     "techStack": "Tech Stack",
     "aboutMe": "About me",
-    "cta": "Let’s Talk"
+    "contact": "Contact"
   },
 
   "revolution": {
@@ -48,7 +48,7 @@
     "cta": "View all projects",
     "readMore": "Read more",
     "readLess": "Read less",
-    "detailsTitle": "Projects I've built:",
+    "detailsTitle": "Projects I've built recently:",
     "p1": "Original Portfolio",
     "p2": "Opacity puzzle game (DESKTOP only)",
     "p3": "Badacsony rental website"
