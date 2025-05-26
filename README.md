@@ -1,12 +1,53 @@
-# React + Vite
+The portfolio is deployed at https://on-off-portfolio.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive one-page portfolio built using **React**, **Tailwind CSS**, and inspired by the **Onoff App** (https://www.onoff.app/en/) design system.
 
-Currently, two official plugins are available:
+This portfolio showcases my development skills, projects, recent courses, and contact information — presented in a clean UI that mimics the professionalism and friendliness of the Onoff brand.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Built with **React** + **Vite** for fast performance
+- Styled with **Tailwind CSS**
+- Multilingual support with `react-i18next` (🇬🇧 English / 🇫🇷 Français)
+-  Fully **responsive** – mobile-first and desktop-optimized
+-  Showcases:
+- Latest **projects**
+- Recent **certified courses**
+- Interactive **Contact section** styled as a mobile UI
+-  Smooth in-page **scroll navigation**
+-  **Downloadable CV** via Google Drive link
+
+---
+
+## 🛠 Tech Stack
+
+| Frontend       | Styling         | Internationalization | Tooling        |
+|----------------|-----------------|-----------------------|----------------|
+| React (Vite)   | Tailwind CSS    | `react-i18next`       | Prettier       |
+| JSX + Hooks    | Responsive Flex/Grid | LanguageSwitcher   | VSCode         |
+
+---
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/gloofys/onoffportfolio.git
+cd onoffportfolio
+npm install
+
+npm run dev
+
+```
+Feel free to reach out or connect with me:
+
+Email: fred.brosman06@gmail.com
+
+Phone: +372 5686 3593
+
+LinkedIn: linkedin.com/in/fred-brosman
+
+GitHub: github.com/gloofys
